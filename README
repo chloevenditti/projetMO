@@ -1,0 +1,23 @@
+# projetMO
+ Projet de Modélisation Objet réaliser lors de ma 3ème année de Licence Informatique MIAGE à l'UPJV à AMIENS. Projet réaliser en binôme.
+ 
+Sujet : 
+Aider une marie avec la gestion de l'occupation de son domaine public. 
+Un prorpiétaire veut acquérir une terrasse (il existe différents types, été, permanante, semi-permante, et une grille tarifaire en fonction du type de la terrasse et de la zone dans lequel l'établissement possédant la future terrasse est).
+Nous devions choisir 1 fonctionnalité du futur logiciel importante à coder. Nous avons choisi le Calcul d'une facture. Effectivement, un propriétaire d'une terrasse doit payer une facture pour sa terrasse en fonction de ses caractéristiques et ceux de l'établissement la possédant.
+
+Comment répondre au problème posé ? 
+A l'aide d'un logiciel intuitif et facile d'utilisation pour la mairie ainsi que tous les futurs potentiels utilisateurs. 
+
+Outils utilisés : 
+UML (Diagramme d'Utilisation, d'Activité, de Séquences, d'États-transitions, de Classes)
+JAVA ( Sans interface graphique car non nécessaire dans le sujet) 
+
+Description du code JAVA : 
+Il doit nous dire si c'est une personne physique (Un propriétaire d'un hôtel par exemple) ou une personne morale (la SNCF par exemple).
+Ensuite il se connecte à notre platefome, (on affiche ses informations par la suite) puis peut choisir entre 3 actions : 
+   1) Afficher la liste des établissement qu'ils possèdent 
+   2) Possibilité de supprimer un de ses établissements (celui-ci a peut-être fermé?)
+   3) Demander une facture d'une établissements possèdant une terrasse.
+  
+  Dans l'exemple mis dans le code JAVA (étant le même sur le PDF expliquant en détail notre démarche et les résultats obtenus) on a calculé la facture d'une terrasse de type PERMANENTE (de 4m2) dont l'établissement (Café La Gare) est en Zone à 126.5 EUROS /m2 soit zone A. La facture s'élève à 506 Euros avec 365 jours d'occupation de la terrasse. (4x126.5 = 506)
